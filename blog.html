@@ -1,15 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Blog</title>
-        <link rel="stylesheet" href="style1.css">
-    </head>
-    <body>
-        <nav class="top-row"> 
-            <button type="index button" class="index-button"> <a href="index.html">Main page</a> </button> <h1>Blog</h1>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Grid -->
+  <div class="grid-container">
+    <div class="grid-item"> <!--empty --></div>
+    <div class="grid-item">
+      <!-- Header and Navigation -->
+      <header>
+        <h1>My Blog</h1>
+        <nav>
+          <a class="home-button" href="index.html"><img src="img/home.png" alt="Home image"></a>
+          <a href="profile.html"><strong>Profile</strong></a>
+          <a href="dashboard.html"><strong>Dashboard</strong></a>
+          <a href="faq.html"><strong>FAQ</strong></a>
+          <a href="blog.html" class="active"><strong>Blog</strong></a>
         </nav>
-    </body>
+        <div class="grid-item">
+          <section class="hz-button">
+            <a href="https://hz.nl/en/"><img src="img/hz-logo1.png" alt="HZ logo"></a>
+          </section>
+        </div>
+      </header>
+    </div>
+    <!-- END of Header and Navigation -->
+    <div class="grid-item">3</div>
+    <div class="grid-item"> <!--Aside menu / grid position 4-->
+      <aside>
+        <h3> Menu </h3>
+        <hr>
+        <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank"><strong> HZ HBO-ICT CER </strong></a>
+        <a href="https://learn.hz.nl/my/" target="_blank"><strong> Learn environment </strong></a>
+        <a href="https://hz.osiris-student.nl/voortgang" target="_blank"><strong> My progress </strong></a>
+        <a href="https://github.com/HZ-HBO-ICT" target="_blank"><strong>GitHub environment</strong></a>
+      </aside>
+    </div>
+    <div class="grid-item">
+      <!-- Main body -->
+      <main>
+        
+      </main>
+    </div>
+    <div class="grid-item"> <!-- Banner / grid position 6 -->
+      <section class="banner">
+        <img src="img/banner.png" alt="ict banner">
+        <h3 id="banner-title"> New! </h3>
+        <hr>
+        <p id="banner-text"> Check out my new article about ICT here! </p>
+        <p id="banner-text"> See new pictures in the gallery! </p>
+      </section>
+    </div>
+    <div class="grid-item"> <!-- empty / grid position 7 --> </div>
+    <div class="grid-item"> <!-- empty / grid position 8 --> </div>
+    <div class="grid-item"> <!-- empty / grid position 9 --> </div>
+  </div>
+</body>
+
 </html>

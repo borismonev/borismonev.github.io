@@ -1,0 +1,364 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+/* GRID */
+/* Numbers show where on the grid the different sections are */
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1000px 210px;
+    grid-template-rows: 100px 500px 100px;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* HEADER 2*/
+h1 {
+    margin-top: -5px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    color: #E03146;
+    text-align: center;
+}
+
+header {
+    background-color: blanchedalmond;
+    box-shadow: 0 0 12px #ffae00 inset;
+    border-radius: 25px;
+    position: fixed;
+    margin-left: -220px;
+    margin-top: -30px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 1380px;
+    max-height: 115px;
+}
+
+/* NAVIGATION */
+nav {
+    margin-top: -50px;
+
+    img {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 0 0 5px #ffae00 inset;
+    border-radius: 25px;
+}
+
+nav a:hover {
+    background-color: #ff890246;
+    color: #E03146;
+}
+
+nav a.active {
+    background-color: #ff890246;
+    color: #E03146;
+}
+
+/* HZ Logo 3*/
+.hz-button {
+    margin-top: -105px;
+    margin-left: 1250px;
+
+    img {
+        height: 70px;
+        width: 60px;
+    }
+}
+
+/* ASIDE MENU */
+aside {
+    box-shadow: 0 0 12px #ffae00 inset;
+    border-radius: 25px;
+    width: 200px;
+    height: 460px;
+    margin-left: -20px;
+    margin-top: 20px;
+    position: fixed;
+
+    hr {
+        margin-top: -20px;
+        margin-left: 8px;
+        margin-right: 8px;
+        height: 3px;
+        border-color: #E03146;
+        border-radius: 25px;
+        background-color: #E03146;
+    }
+
+    h3 {
+        margin: 15px;
+        margin-bottom: 25px;
+        color: #E03146;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+aside a {
+    box-shadow: 0 0 12px #ffae00 inset;
+    border-radius: 25px;
+    margin-top: -10px;
+    margin: 8px;
+    font-size: 25px;
+    text-align: center;
+    display: list-item;
+    list-style: none;
+    padding: 8px;
+}
+
+aside a:hover {
+    background-color: #ff890246;
+    color: #E03146;
+}
+
+/* MAIN BODY 5*/
+main {
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 0 12px #ffae00 inset;
+    border-radius: 25px;
+    margin-top: 20px;
+
+    hr {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0;
+        height: 3px;
+        border-color: #E03146;
+        border-radius: 25px;
+        background-color: #E03146;
+    }
+}
+
+h2 {
+    color: #E03146;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #ffae00;
+    text-indent: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin: auto;
+
+    a {
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: #ffae00;
+        font-style: oblique;
+    }
+
+    a:hover {
+        color: #E03146
+    }
+
+}
+
+h4 {
+    color: #E03146;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.imageflex {
+    display: flex;
+    img {
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+    }
+}
+
+ul {
+    color: #ffae00;
+    font-size: 24px;
+    padding-right: 20px;
+    margin: auto;
+
+    a {
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: #ffae00;
+        font-style: oblique;
+    }
+
+    a:hover {
+        color: #E03146
+    }
+}
+
+/*Progress bar*/
+.progress {
+    box-shadow: 0 0 12px #ffae00 inset;
+    border-radius: 25px;
+    width: 500px;
+    margin-left: 23%;
+    text-align: center;
+    display: flex;
+    height: 36px;
+}
+
+.progress-bar {
+    background-color: #ff890224;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+#progress-text {
+    margin-top: 4px;
+    color: #E03146;
+    margin-left: -65px;
+}
+
+.imageflexcontent {
+    margin: 0;
+}
+
+.vl {
+    border-left: 6px solid #E03146;
+    height: 36px;
+    margin-left: 580px;
+    margin-top: -36px;
+}
+
+#nbsa-minimum {
+    font-size: 20px;
+    color: #E03146;
+    margin-left: 440px;
+    padding-bottom: 0;
+}
+
+h5 {
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #E03146;
+}
+
+/* Banner 6 */
+.banner {
+    margin-left: -20px;
+    margin-top: 20px;
+    width: 220px;
+    height: 465px;
+    box-shadow: 0 0 12px #ffae00 inset;
+    border-radius: 25px;
+    position: fixed;
+
+    hr {
+        margin-top: -34px;
+        margin-left: 8px;
+        margin-right: 8px;
+        height: 3px;
+        border-color: #E03146;
+        border-radius: 25px;
+        background-color: #E03146;
+    }
+
+    img {
+        width: 220px;
+        height: 465px;
+        margin-left: -10px;
+    }
+
+    h3 {
+        margin-top: -420px;
+        color: #E03146;
+        font-size: 40px;
+    }
+}
+#questions {
+    margin-top: 0;
+    text-align: left;
+    color: #E03146;
+    font-size: 25px;
+    p {
+        margin: 0;
+        padding-right: 30px;
+    }
+}
+#banner-text {
+    text-align: center;
+    text-indent: 0px;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Dashboard Table */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 12px #ffae00 inset;
+    border: solid #ffae00;
+}
+
+th {
+    border: solid #ffae00;
+    border-width: 2px;
+    padding: 10px;
+    font-size: 27px;
+    color: #E03146;
+}
+
+td {
+    border: solid #ffae00;
+    border-width: 2px;
+    padding: 5px;
+    color: #ff6a00;
+    background-color: #ff890224;
+    font-size: 24px;
+}
+
+/* Link properties */
+a {
+    color: #ffae00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cfbf33;
+    font-style: oblique;
+}
+
+a:hover {
+    color: #E03146
+}
+
+a:active {
+    color: #E03146
+}

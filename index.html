@@ -1,27 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Main page</title>
-        <link rel="stylesheet" href="style1.css">
-    </head>
-    <body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Main page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Grid -->
+  <div class="grid-container">
+    <div class="grid-item"> <!--empty / grid position 1--></div>
+    <div class="grid-item">
+      <!-- Header and Navigation / grid position 2 -->
+      <header>
         <h1>My Website</h1>
-        <section class="dashboard">
-            <nav>
-                <button type="index button" class="button"><a href="profile.html">Personal Details</a></button>
-            </nav>
-            <nav>
-                <button type="index button" class="button"><a href="dashboard.html">Dashboard</a></button>
-            </nav>
-            <nav>
-                <button type="index button" class="button"><a href="faq.html">FAQ</a></button>
-            </nav>
-            <nav>
-                <button type="index button" class="button"><a href="blog.html">Blog</a></button>
-            </nav>
-        </section>
-    </body>
+        <nav>
+          <a class="active" href="index.html"><img src="img/home.png" alt="Home image"></a>
+          <a href="profile.html"><strong>Profile</strong></a>
+          <a href="dashboard.html"><strong>Dashboard</strong></a>
+          <a href="faq.html"><strong>FAQ</strong></a>
+          <a href="blog.html"><strong>Blog</strong></a>
+        </nav>
+        <div class="grid-item">
+          <section class="hz-button">
+            <a href="https://hz.nl/en/"><img src="img/hz-logo1.png" alt="HZ logo"></a>
+          </section>
+        </div>
+      </header>
+    </div>
+    <div class="grid-item"> <!--empty / grid position 3--> </div>
+    <div class="grid-item"> <!--Aside menu / grid position 4-->
+      <aside>
+        <h3> Menu </h3>
+        <hr>
+        <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank"><strong> HZ HBO-ICT CER
+          </strong></a>
+        <a href="https://learn.hz.nl/my/" target="_blank"><strong> Learn environment </strong></a>
+        <a href="https://hz.osiris-student.nl/voortgang" target="_blank"><strong> My progress </strong></a>
+        <a href="https://github.com/HZ-HBO-ICT" target="_blank"><strong>GitHub environment</strong></a>
+      </aside>
+    </div>
+    <div class="grid-item">
+      <!-- Main body / grid position 5-->
+      <main>
+        <h2> Welcome to my website! </h2>
+        <p>My name is Boris and this is my first ever website, and I am super excited to share it! Here you can find
+          information <a href="profile.html"><strong>about me</strong></a>, my journey
+          progress in the ICT programme, frequently asked questions and my blog page!</p>
+        <hr>
+        <h4> Why I chose ICT: </h4>
+        <div class="imageflex">
+          <p class="imageflexcontent">I decided to study ICT because of my interest in technology as a whole. I love
+            experimenting with various devices, seeing how they work,
+            and experiencing the innovative features they bring to the world. I want to learn programming to enhance my
+            understanding of technology
+            not only on a hardware level but also on a software level. Although I haven’t decided on a specific career
+            path yet, I’m confident that this
+            program will help me discover the direction that best suits my passions and skills.</p>
+          <img src="img/ict.png" alt="ict image">
+        </div>
+        <h4> Ways ICT transforms the World: </h4>
+        <div class="imageflex">
+          <img src="img/ict-world.png" alt="ict image">
+          <ul class="imageflexcontext">
+            <li> <strong> Global Connectivity: </strong> ICT enables instant communication across the globe. </li>
+            <li> <strong> Education Access: </strong> Online learning platforms make education accessible to all. </li>
+            <li> <strong> Healthcare Improvement: </strong> Telemedicine allows remote medical consultations. </li>
+            <li> <strong> Economic Growth: </strong> E-commerce boosts businesses by reaching wider audiences. </li>
+            <li> <strong> Innovation Acceleration: </strong> ICT fosters new technologies and creative solutions. </li>
+            <li> <strong>Read more </strong> about how ICT is transforming societies, cultures and economies in "The
+              Linked World" research report <strong><a
+                  href="https://dialogic.nl/wp-content/uploads/2016/12/2009.068-1231.pdf"
+                  target="_blank">here.</strong></a> </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <div class="grid-item"> <!-- Banner / grid position 6 -->
+      <section class="banner">
+        <img src="img/banner.png" alt="ict banner">
+        <h3 id="banner-title"> New! </h3>
+        <hr>
+        <p id="banner-text"> Check out my new article about ICT here! </p>
+        <p id="banner-text"> See new pictures in the gallery! </p>
+      </section>
+    </div>
+    <div class="grid-item"> <!-- empty / grid position 7 --> </div>
+    <div class="grid-item"> <!-- Footer / grid position 8 --></div>
+    <div class="grid-item"> <!-- empty / grid position 9 --> </div>
+  </div>
+</body>
+
 </html>
