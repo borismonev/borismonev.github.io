@@ -19,7 +19,7 @@ body {
     text-align: center;
 }
 
-/* HEADER 2*/
+/* HEADER 2 and NAVIGATION*/
 h1 {
     margin-top: -5px;
     padding-bottom: 10px;
@@ -85,7 +85,7 @@ nav a.active {
     }
 }
 
-/* ASIDE MENU */
+/* ASIDE MENU 4*/
 aside {
     box-shadow: 0 0 12px #ffae00 inset;
     border-radius: 25px;
@@ -241,7 +241,17 @@ ul {
         color: #E03146
     }
 }
+#questions {
+    margin-top: 0;
+    text-align: left;
+    color: #E03146;
+    font-size: 25px;
 
+    p {
+        margin: 0;
+        padding-right: 30px;
+    }
+}
 /*Progress bar*/
 .progress {
     box-shadow: 0 0 12px #ffae00 inset;
@@ -263,10 +273,6 @@ ul {
     margin-top: 4px;
     color: #E03146;
     margin-left: -65px;
-}
-
-.imageflexcontent {
-    margin: 0;
 }
 
 .vl {
@@ -333,18 +339,6 @@ h5 {
     padding-right: 20px;
 }
 
-#questions {
-    margin-top: 0;
-    text-align: left;
-    color: #E03146;
-    font-size: 25px;
-
-    p {
-        margin: 0;
-        padding-right: 30px;
-    }
-}
-
 /* Dashboard Table */
 table {
     margin-top: 20px;
@@ -372,7 +366,7 @@ td {
     background-color: #ff890224;
     font-size: 24px;
 }
-
+/* Footer */
 footer {
     box-shadow: 0 0 12px #ffae00 inset;
     border-radius: 25px;
@@ -393,7 +387,7 @@ footer {
     }
 
 }
-
+/* Gallery */
 .gallery {
     display: flex;
     flex-direction: row;
