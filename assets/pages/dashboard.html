@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <!-- Grid -->
+  <div class="grid-container">
+    <div class="grid-item"> <!--empty -->&nbsp;</div>
+    <div class="grid-item">
+      <!-- Header and Navigation -->
+      <header>
+        <h1>Dashboard</h1>
+        <nav>
+          <a href="/assets/pages/index.html"><img src="/assets/img/home.png" alt="Home image"></a>
+          <a href="/assets/pages/profile.html"><strong>Profile</strong></a>
+          <a href="/assets/pages/dashboard.html" class="active"><strong>Dashboard</strong></a>
+          <a href="/assets/pages/faq.html"><strong>FAQ</strong></a>
+          <a href="/assets/pages/blog.html"><strong>Blog</strong></a>
+          <a href="/assets/pages/gallery.html"><img src="/assets/img/gallery.png" alt="Gallery image"></a>
+        </nav>
+        <div class="grid-item">
+          <section class="hz-button">
+            <a href="https://hz.nl/en/" target="_blank"><img src="/assets/img/hz-logo1.png" alt="HZ logo"></a>
+          </section>
+        </div>
+      </header>
+    </div>
+    <!-- END of Header and Navigation -->
+    <div class="grid-item">&nbsp;</div>
+    <div class="grid-item"> <!--Aside menu / grid position 4-->
+      <aside>
+        <h3> Menu </h3>
+        <hr>
+        <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank"><strong> HZ HBO-ICT CER
+          </strong></a>
+        <a href="https://learn.hz.nl/my/" target="_blank"><strong> Learn environment </strong></a>
+        <a href="https://hz.osiris-student.nl/voortgang" target="_blank"><strong> My progress </strong></a>
+        <a href="https://github.com/HZ-HBO-ICT" target="_blank"><strong>GitHub environment</strong></a>
+      </aside>
+    </div>
+    <div class="grid-item"> <!-- Main body -->
+      <main>
+        <h2>Year program and progress</h2>
+        <p>Here you can find information about the exams during the year and how much credits each of them give.
+          To find
+          more details about the year plan,
+          click <a
+            href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.4-Jaarrooster/2024-2025/20240605-HZ-jaarrooster-2024-2025-EN.pdf"
+            target="_blank"><strong>here.</strong></a>
+        <h5> Progress bar </h5> <!--Progress Bar-->
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width:0%">
+            <p id="progress-text">0%</p>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <p id="nbsa-minimum">NBSA Minimum</p>
+        </p>
+        <button id="change-width-btn">Change Progress</button>
+      </main>
+      <!-- Information about the study programme can be found here.  -->
+      <table>
+        <tr> <!-- Table Header -->
+          <th> Block </th>
+          <th> Course </th>
+          <th> Exam </th>
+          <th> Study Credits
+          <th> Total </th>
+          </th>
+          <th> Grade Received </th>
+        </tr>
+        <!-- Block 1, Semester 1 -->
+        <!-- PCO -->
+        <tr>
+          <td rowspan="3"> B1/S1 </td>
+          <td> PCO </td>
+          <td> Assesment Website </td>
+          <td> 2.5 EC </td>
+          <td rowspan="3"> 12.5 EC 20%</td>
+          <td> - </td>
+        </tr>
+        <!-- Computer Science Basics -->
+        <tr>
+          <td> Computer Science Basics </td>
+          <td> Written exam </td>
+          <td> 5 EC </td>
+          <td> - </td>
+        </tr>
+        <!-- Programming Basics -->
+        <tr>
+          <td> Programming Basics </td>
+          <td> Case study exam </td>
+          <td> 5 EC</td>
+          <td> - </td>
+        </tr>
+        <!-- B2 -->
+        <!-- Object-Oriented Programming -->
+        <tr>
+          <td rowspan="2"> B2/S1 </td>
+          <td rowspan="2"> OOP </td>
+          <td> Group assignment </td>
+          <td> 5 EC</td>
+          <td rowspan="2"> 10 EC 17%</td>
+          <td rowspan="2"> - </td>
+        </tr>
+        <tr>
+          <td> Case study exam </td>
+          <td> 5 EC</td>
+        </tr>
+        <!-- Block 1, Semester 2-->
+        <!-- Framework project 1-->
+        <tr>
+          <td rowspan="4"> B1/S2 </td>
+          <td rowspan="4"> Framework project 1 </td>
+          <td> Written knowledge test </td>
+          <td> 5 EC </td>
+          <td rowspan="4"> 10 EC 17%</td>
+          <td rowspan="4"> - </td>
+        </tr>
+        <tr>
+          <td> Written knowledge test </td>
+          <td> 1.25 EC </td>
+        </tr>
+        <tr>
+          <td> Assignment (group)</td>
+          <td> 2.5 EC </td>
+        </tr>
+        <tr>
+          <td> Assignment (individual)</td>
+          <td> 1.25 EC </td>
+        </tr>
+        <tr>
+          <td rowspan="3"> B2/S2 </td>
+          <td rowspan="3"> Framework Project 2 </td>
+          <td> Final delivery </td>
+          <td> 2.5 EC </td>
+          <td rowspan="3"> 10 EC 17%</td>
+          <td rowspan="3"> - </td>
+        </tr>
+        <tr>
+          <td> Report of acceptance tests and optional assessments </td>
+          <td> 2.5 EC </td>
+        </tr>
+        <tr>
+          <td> IT Development portfolio </td>
+          <td> 5 EC </td>
+        </tr>
+        <tr>
+          <td> B1&2/S2 </td>
+          <td> Business IT Consultancy basics </td>
+          <td> Video </td>
+          <td> 2.5 EC </td>
+          <td> 2.5 EC 4%</td>
+          <td> - </td>
+        </tr>
+        <tr>
+          <td> S1/S2 </td>
+          <td> PPD </td>
+          <td> Criterium focused interview </td>
+          <td> 12.5 EC </td>
+          <td> 12.5 EC 20%</td>
+          <td> - </td>
+        </tr>
+        <tr>
+          <td> S1/S2 </td>
+          <td> IT Personality </td>
+          <td> Portfolio </td>
+          <td> 2.5 EC </td>
+          <td> 2.5 EC 4%</td>
+          <td> - </td>
+        </tr>
+      </table>
+      <!--empty-->
+    </div>
+    <div class="grid-item"> <!-- Footer / grid position 6 -->
+      <section class="banner">
+        <img src="/assets/img/banner.png" alt="ict banner">
+        <h3 id="banner-title"> New! </h3>
+        <hr>
+        <p id="banner-text"> Check out my article page <a href="/assets/pages/blog.html">here!</a></p>
+        <p id="banner-text"> See new pictures in the <a href="/assets/pages/gallery.html">gallery!</a></p>
+      </section>
+    </div>
+    <footer>
+      <p> &#169; 2024 Boris Monev </p>
+      <a href="https://github.com/borismonev" target="_blank" id="github-icon"><img src="/assets/img/git-ico.png"
+          alt="Github logo"></a>
+    </footer>
+  </div>
+</body>
+<script>
+  // Function to update the progress bar
+  function updateProgressBar() {
+    // Prompt the user for a number
+    let userInput = prompt("Enter a number between 0 and 100 to set the progress:");
+
+    // Convert the input to a number and validate it
+    let progress = parseInt(userInput);
+
+    if (!isNaN(progress) && progress >= 0 && progress <= 100) {
+      // Update the progress bar width
+      let progressBar = document.querySelector('.progress-bar');
+      progressBar.style.width = progress + '%';
+
+      // Update the progress text
+      let progressText = document.getElementById('progress-text');
+      progressText.textContent = progress + '%';
+    } else {
+      alert("Please enter a valid number between 0 and 100.");
+    }
+  }
+
+  // Add event listener to the button
+  document.getElementById('change-width-btn').addEventListener('click', updateProgressBar);
+</script>
+
+</html>
